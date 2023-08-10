@@ -1,0 +1,72 @@
+menú dinámico(label)
+
+font: 87 12pt "Arial Black";
+color: rgb(20, 200, 220);
+
+
+frame superior
+
+QFrame{
+background-color: rgb(0,0,0);
+}
+
+
+QPushButton{
+background-color: #000000ff;
+border-radius: 20px;
+}
+
+
+
+QPushButton:hover{
+background-color: rgb(53, 53, 79);
+border-radius: 20px;
+}
+
+
+LINE EDIT
+
+QLineEdit{
+font: 75 12pt "Times New Roman";
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border-radius:8px;
+border: 2px solid #14c8dc;
+}
+
+
+
+FRAME 6
+
+
+QFrame{
+background-color:rgb(53, 53, 79);
+}
+
+QLabel{
+font: 87 12pt "Arial Black";
+background-color: #000000ff;;
+color rgb(20, 200, 220);
+border: 0px solid #14c8dc;
+
+}
+
+FRAME 2
+
+QFrame{
+background-color: rgb(53, 53, 79);
+}
+
+
+QPushButton{
+font: 87 12pt "Arial Black";
+background-color: #000000ff;
+color: rgb(20, 200, 220);
+border-radius:5px;
+border: 1px solid white;
+}
+
+QPushButton:hover{
+background-color:black;
+}
+
